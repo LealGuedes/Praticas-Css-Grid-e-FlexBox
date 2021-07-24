@@ -1,0 +1,17 @@
+*****INFORMACOES SOBRE OS TESTES FEITOS*****
+
+A intenção deste projeto foi por em pratica 
+conhecimentos básicos sobre "grid css" e "flex-box".
+
+*Foi utilizado o css grid para realizar o fatiamento para diferentes 
+tipos de layout:1coluna, 2 coluna ou 3 colunas.
+
+*foi utilizado o flex-box para que fosse alinhado os elementos filhos de cada fatia do layout
+ao centro no eixo "x"(justify-content)  e "y"(align-items) da area em questão. 
+
+
+OBS!:Os resultados podem ser conferidos através das imagens dos testes presente neste projeto:
+
+		-template-1-coluna;
+		-template-2-coluna;
+		-template-3-coluna;

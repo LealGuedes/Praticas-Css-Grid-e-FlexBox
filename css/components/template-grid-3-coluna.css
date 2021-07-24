@@ -1,0 +1,74 @@
+/*********************************************************************ESTILO PARA 3 COLUNA**********************************************/
+body.template-3-colunas{
+
+	display: grid;
+	background-color:#DCDCDC; 
+	grid-template-columns:1fr 2fr 1fr;
+	grid-template-rows:30vh 50vh 20vh;
+}
+header.header{
+
+		display:flex;
+		justify-content:center; 
+		align-items:center; 
+		grid-column-start:1;
+		grid-column-end:4;
+		grid-row-start:1;
+		grid-row-end:2;
+		background-color:rgba(128,128,128); 
+}
+nav.nav{
+
+		display:flex;
+		justify-content:center;
+		align-items:center; 
+		grid-column-start:1;
+		grid-column-end:2;
+		grid-row-start:2;
+		grid-row-end:3;
+		background-color:rgba(192,192,192); 
+}
+main.main{
+		
+		display:flex;
+		justify-content:center;
+		align-items:center; 
+		grid-column-start:2;
+		grid-column-end:3;
+		grid-row-start:2;
+		grid-row-end:3;
+		background-color:rgba(220,220,220); 	
+}
+aside.aside{
+
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		grid-column-start:3;
+		grid-column-end:4;
+		grid-row-start:2;
+		grid-row-end:3;
+		background-color:rgba(211,211,211); 
+
+}
+footer.footer{
+		display:flex;
+		justify-content:center;
+		align-items:center; 
+		grid-column-start:1;
+		grid-column-end:4;
+		grid-row-start:3;
+		grid-row-end:4;
+		background-color:rgba(128,128,128); 
+
+}
+span.text-main{
+
+	font-weight:bold; 
+	color:black;
+}
+span.text{
+
+	color:white;
+}
+/*****************************************************************************************************************************/

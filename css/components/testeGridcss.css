@@ -1,0 +1,16 @@
+.container{
+
+	display:grid;
+	grid-template-columns:1fr 5fr 1fr;
+}
+.box-one{
+
+	background-color:green; 
+}
+.box-two{
+
+	background-color:red; 
+}
+.box-tree{
+	background-color:lime; 
+}
